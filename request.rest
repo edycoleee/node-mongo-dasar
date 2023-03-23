@@ -1,0 +1,21 @@
+### Getting All
+GET http://localhost:4000/subscribers
+
+### Getting One
+GET http://localhost:4000/subscribers/1
+
+#### Create
+POST http://localhost:4000/subscribers
+Content-Type: application/json
+
+{
+  "name": "Silmi",
+  "subscribedToChannel" : "Shopee"
+}
+
+### Update
+PATCH http://localhost:4000/subscribers/1
+
+### Delete
+DELETE http://localhost:4000/subscribers/1
+
